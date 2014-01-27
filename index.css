@@ -1,0 +1,14 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+html,body{height:100%;}
+.item,.active{height:100%;}
+
+@media (min-width: 1600px) {
+  .container {
+    width: 1570px;
+  }
+}

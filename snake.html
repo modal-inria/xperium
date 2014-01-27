@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="modal" >
+      <!--link rel="shortcut icon" href="../../docs-assets/ico/favicon.png"-->
+      <title>Intelligence des données</title>
+      <!-- Bootstrap core CSS -->
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Just for debugging purposes. Don't actually copy this line! -->
+      <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+      <!-- Custom styles for this template -->
+      <link href="carousel.css" rel="stylesheet">
+   </head>
+   <!-- NAVBAR
+      ================================================== -->
+   <body>
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="index.html">Accueil</a>
+            </div>
+          </div>
+      </div>
+      <div class="container fill">
+         <!-- Carousel
+            ================================================== -->
+         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+               <li data-target="#myCarousel" data-slide-to="3"></li>
+               <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="item active">
+                  <div class="fill">
+                     <div class="carousel-caption">
+                        <div class="col-md-6">
+                           <h2 class="featurette-heading">Introduction</h2>
+                           <p class="lead">
+                              Jeu: qu'est-ce que c'est ? 
+                           </p>
+                        </div>
+                        <div class="col-md-6">
+                           <img class="featurette-image img-responsive" src="img/snake/permuted-snake.png"/>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="fill">
+                     <div class="carousel-caption">
+                        <div class="col-md-3">
+                           <h2 class="featurette-heading">Introduction</h2>
+                           <ol>
+               					<li>Regroupement par lignes</li>
+               					<li>Regroupement par colonnes</li>
+            					</ol>
+                           <p class="lead">
+                           	Le serpent est reconstitué par BlockCluster !
+                           </p>
+                        </div>
+                        <div class="col-md-9">
+                           <img class="featurette-image img-responsive" src="img/snake/snakes-op.png"/>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="fill">
+                     <div class="carousel-caption">
+                        <div class="col-md-3">
+                           <h2 class="featurette-heading">Explications</h2>
+                           <ul>
+                           	<li>BlockCluster ne connaît pas l'image initiale</li>
+										<li>Les éléments dans l'image reconstituée peuvent ainsi être décalés</li>
+										<li>Ce qui est important c'est le regroupement de zones similaires</li>
+										<li>Utilisation de mathématiques pour résoudre le problème</li>
+                           </ul>
+<!-- begin MathToWeb -->
+<!-- (your LaTeX) $f_{k\ell}(x_{ij};\mathbf{\alpha})= \frac{1}{\sqrt{2\pi\sigma_{k\ell}^2}}\exp-\{\frac{1}{2\sigma_{k\ell}^2}(x_{ij}-\mu_{k\ell})^2\}$ -->
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+	<msub>
+		<mi>f</mi>
+		<mrow>
+			<mi>k</mi>
+			<mo>&ell;</mo>
+		</mrow>
+	</msub>
+	<mrow>
+		<mo maxsize="1.00em" form="prefix">(</mo>
+		<msub>
+			<mi>x</mi>
+			<mrow>
+				<mi>i</mi>
+				<mi>j</mi>
+			</mrow>
+		</msub>
+		<mo>;</mo>
+		<mi mathvariant="bold">&alpha;</mi>
+		<mo maxsize="1.00em" form="postfix">)</mo>
+	</mrow>
+	<mo>=</mo>
+	<mfrac linethickness="1">
+		<mn>1</mn>
+		<mrow>
+			<msqrt>
+				<mrow>
+					<mn>2</mn>
+					<mi>&pi;</mi>
+					<msubsup>
+						<mi>&sigma;</mi>
+						<mrow>
+							<mi>k</mi>
+							<mo>&ell;</mo>
+						</mrow>
+						<mn>2</mn>
+					</msubsup>
+				</mrow>
+			</msqrt>
+		</mrow>
+	</mfrac>
+	<mrow>
+		<mi></mi>
+		exp<mi></mi>
+	</mrow>
+	<mo>-</mo>
+	<mrow>
+		<mo maxsize="1.00em" form="prefix">{</mo>
+		<mfrac linethickness="1">
+			<mn>1</mn>
+			<mrow>
+				<mn>2</mn>
+				<msubsup>
+					<mi>&sigma;</mi>
+					<mrow>
+						<mi>k</mi>
+						<mo>&ell;</mo>
+					</mrow>
+					<mn>2</mn>
+				</msubsup>
+			</mrow>
+		</mfrac>
+		<msup>
+			<mrow>
+				<mo maxsize="1.00em" form="prefix">(</mo>
+				<msub>
+					<mi>x</mi>
+					<mrow>
+						<mi>i</mi>
+						<mi>j</mi>
+					</mrow>
+				</msub>
+				<mo>-</mo>
+				<msub>
+					<mi>&mu;</mi>
+					<mrow>
+						<mi>k</mi>
+						<mo>&ell;</mo>
+					</mrow>
+				</msub>
+				<mo maxsize="1.00em" form="postfix">)</mo>
+			</mrow>
+			<mn>2</mn>
+		</msup>
+		<mo maxsize="1.00em" form="postfix">}</mo>
+	</mrow>
+</mrow>
+</math>
+<!-- end MathToWeb -->
+                        </div>
+                        <div class="col-md-9">
+                           <img class="featurette-image img-responsive" src="img/snake/coclustersnake.png"/>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="fill">
+                     <div class="carousel-caption">
+                        <div class="col-md-6">
+                           <h2 class="featurette-heading">Analyse de textes</h2>
+                           <ul>
+                           	<li>BlockCluster n'est pas limité au traitement d'images</li>
+										<li>Il peut permettre de classer des livres par exemple</li>
+										<li>Il faut dans un premier temps compter les fréquences des mots dans chaque livre</li>
+										<li>Il faut ensuite mettre cette information sous la forme d'un tableau de données</li>
+										<li>On peut enfin appliquer BlockCluster pour chercher des similitudes entre elles</li>
+                           </ul>
+                        </div>
+                        <div class="col-md-6">
+                           <!-- origine image: http://commons.wikimedia.org/wiki/File:Bookshelf.jpg?uselang=en-gb -->
+                           <img class="featurette-image img-responsive" src="img/snake/Bookshelf.jpg"/>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="fill">
+                     <div class="carousel-caption">
+                        <div class="col-md-6">
+                           <h2 class="featurette-heading">Analyse de textes</h2>
+                           <ul>
+                           	<li>Deux groupes d'articles sont mélangés: médecine et histoire</li>
+										<li>Dans le tableau initial on ne reconnaît pas les deux groupes</li>
+										<li>BlockCluster réarrange les lignes et les colonnes pour faire apparaître les deux groupes</li>
+										<li>On peut traiter beaucoups de documents, de façon automatique, et plus rapidement qu'à la main</li>
+                           </ul>
+                        </div>
+                        <div class="col-md-6">
+                           <img class="featurette-image img-responsive" src="img/snake/articles.png"/>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev" ><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next" ><span class="glyphicon glyphicon-chevron-right"></span></a>
+         </div>
+         <!-- /.carousel -->
+      </div>
+      <!-- /.container -->
+      <!-- Bootstrap core JavaScript
+         ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+   </body>
+</html>

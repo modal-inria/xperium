@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!--link rel="shortcut icon" href="../../docs-assets/ico/favicon.png"-->
+      <title>Intelligence des données</title>
+      <!-- Bootstrap core CSS -->
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Just for debugging purposes. Don't actually copy this line! -->
+      <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+      <!-- Custom styles for this template -->
+      <link href="carousel.css" rel="stylesheet">
+   </head>
+   <!-- NAVBAR
+      ================================================== -->
+   <body>
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="index.html">Accueil</a>
+            </div>
+          </div>
+      </div>
+      <div class="container fill">
+         <!-- Carousel
+            ================================================== -->
+         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="item active">
+                  <div class="fill">
+                     <div class="carousel-caption">
+                       
+                        <div class="col-sm-6">
+                           <p>
+                           <h2 class="featurette-heading">Prediction de la qualité de biscuits</h2>
+                           <p class="lead">
+                              On mesure la résistance de la pâte à biscuit au cours du pétrissage: 
+                           <ul>
+                              <li> 115 pâtes différentes</li>
+                              <li> on mesure la dureté toutes les 2" pendant 480 secondes </li>
+                           </ul>
+                           Données Danone.</p>
+                           
+                        </div>
+                        <div class="col-sm-6">
+                           <img class="featurette-image img-responsive" src="img/Farines.png"/>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="carousel-caption">
+                     <div class="col-md-3">
+                        <h2 class="featurette-heading">Objectifs</h2>
+                        <p class="lead">A partir de la courbe de dureté de la pâte à biscuit, peut-on classer les biscuits en différentes catégories ?</p>
+                        <p class="lead">Logiciel R, package funclustering.
+                        <p>
+                     </div>
+                     <div class="col-md-9">
+                        <img class="featurette-image img-responsive" src="img/Funclustering-Farine.png" alt="Generic placeholder image">
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  
+                  <div class="carousel-caption">
+                     <div class="col-sm-7">
+                        <h2 class="featurette-heading">Classification automatique des courbes</h2>
+                        <p class="lead">Les biscuits sont ensuite cuits et goutés</p>
+                        <ul>
+                           <li> groupe bleu : biscuits jugé bons</li>
+                           <li> groupe rouge : biscuits jugés mauvais </li>
+                           <li> groupe vert : biscuits jugés moyens qui pourraient être améliorés </li>
+                        </ul>
+                        <p class="lead"> Danone peut avant la cuisson avoir une idée de la qualité du biscuit </p--></p>
+                     </div>
+                     <div class="col-sm-5">
+                        
+                        <img class="featurette-image img-responsive" src="img/anim.gif" alt="Generic placeholder image">
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev" ><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next" ><span class="glyphicon glyphicon-chevron-right"></span></a>
+         </div>
+         <!-- /.carousel -->
+      </div>
+      <!-- /.container -->
+      <!-- Bootstrap core JavaScript
+         ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+   </body>
+</html>
