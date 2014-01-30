@@ -52,13 +52,8 @@
                <div class="item active">
                   <div class="fill">
                      <div class="carousel-caption">
-                        <div class="col-md-6">
-                           <h2 class="featurette-heading">Introduction</h2>
-                           <p class="lead">
-                              Jeu: qu'est-ce que c'est ? 
-                           </p>
-                        </div>
-                        <div class="col-md-6">
+                        <div align="center" class="col-md-12">
+                           <h2 class="featurette-heading">Qu'est-ce que c'est ? </h2>
                            <img class="featurette-image img-responsive" src="img/snake/permuted-snake.png">
                         </div>
                      </div>
@@ -67,18 +62,17 @@
                <div class="item">
                   <div class="fill">
                      <div class="carousel-caption">
-                        <div class="col-md-3">
-                           <h2 class="featurette-heading">Introduction</h2>
-                           <ol>
-               					<li>Regroupement par lignes</li>
-               					<li>Regroupement par colonnes</li>
-            					</ol>
-                           <p class="lead">
-                           	Le serpent est reconstitué par BlockCluster !
-                           </p>
+                        <div align="center" class="col-md-12">
+                           <h2>Le serpent est reconstitué par BlockCluster !</h2>
                         </div>
-                        <div class="col-md-9">
-                           <img class="featurette-image img-responsive" src="img/snake/snakes-op.png">
+                        <div align="center" class="col-md-12">
+									<img class="img-responsive" style="width:37%" src="img/snake/snakes-1.png">
+                        </div>
+                        <div align="center" class="col-md-6">
+									<img class="img-responsive" style="width:74%" src="img/snake/snakes-2.png">
+                        </div>
+                        <div align="center" class="col-md-6">
+									<img class="img-responsive" style="width:74%" src="img/snake/snakes-3.png">
                         </div>
                      </div>
                   </div>
@@ -86,19 +80,10 @@
                <div class="item">
                   <div class="fill">
                      <div class="carousel-caption">
-                        <div class="col-md-3">
-                           <h2 class="featurette-heading">Explications</h2>
-                           <ul>
-                           	<li>BlockCluster ne connaît pas l'image initiale</li>
-										<li>Les éléments dans l'image reconstituée peuvent ainsi être décalés</li>
-										<li>Ce qui est important c'est le regroupement de zones similaires</li>
-                           </ul>
-                        </div>
-                        <div class="col-md-3">
-                        </div>
-                        <div class="col-md-6">
-                           <img class="featurette-image img-responsive" src="img/snake/coclustersnake.png">
-                           <center> Utilisation de mathématiques pour résoudre le problème: 
+                        <div align="center" class="col-md-12">
+                           <h2 class="featurette-heading">Techniques utilisées</h2>
+                           <p class="lead">
+									Mathématiques: reconstitutions de zones similaires <br>
 <!-- begin MathToWeb -->
 <!-- (your LaTeX) $f_{k\ell}(x_{ij};\mathbf{\alpha})= \frac{1}{\sqrt{2\pi\sigma_{k\ell}^2}}\exp-\{\frac{1}{2\sigma_{k\ell}^2}(x_{ij}-\mu_{k\ell})^2\}$ -->
 <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -191,8 +176,17 @@
 </mrow>
 </math>
 <!-- end MathToWeb -->
-                           </center>
-                           <img class="featurette-image img-responsive" src="img/snake/histo.png">
+									</p>
+                        </div>
+                        <div align="center" class="col-md-6">
+                           <video controls="controls">
+  										<source src="video/snake/snake.mp4" type="video/mp4">
+  										<source src="video/snake/snake.webm" type="video/webm">
+  										<source src="video/snake/snake.ogg" type="video/ogg">
+									</video>
+								</div>
+								<div align="center" class="col-md-6">
+									<img class="img-responsive" src="img/snake/histo.png">
                         </div>
                      </div>
                   </div>
@@ -200,19 +194,14 @@
                <div class="item">
                   <div class="fill">
                      <div class="carousel-caption">
-                        <div class="col-md-6">
+                        <div align="center" class="col-md-12">
                            <h2 class="featurette-heading">Analyse de textes</h2>
-                           <ul>
-                           	<li>BlockCluster n'est pas limité au traitement d'images</li>
-										<li>Il peut permettre de classer des livres par exemple</li>
-										<li>Il faut dans un premier temps compter les fréquences des mots dans chaque livre</li>
-										<li>Il faut ensuite mettre cette information sous la forme d'un tableau de données</li>
-										<li>On peut enfin appliquer BlockCluster pour chercher des similitudes entre elles</li>
-                           </ul>
-                        </div>
-                        <div class="col-md-6">
+                           <p class="lead">
+                           	Utilisation hors traitement images <br>
+										Forme: tableau de données
+                           </p>
                            <!-- origine image: http://commons.wikimedia.org/wiki/File:Bookshelf.jpg?uselang=en-gb -->
-                           <img class="featurette-image img-responsive" src="img/snake/Bookshelf.jpg"/>
+                           <img class="featurette-image img-responsive" style="width:50%" src="img/snake/Bookshelf.jpg"/>
                         </div>
                      </div>
                   </div>
@@ -220,14 +209,13 @@
                <div class="item">
                   <div class="fill">
                      <div class="carousel-caption">
-                        <div class="col-md-6">
-                           <h2 class="featurette-heading">Analyse de textes</h2>
-                           <ul>
-                           	<li>Deux groupes d'articles sont mélangés: médecine et histoire</li>
-										<li>Dans le tableau initial on ne reconnaît pas les deux groupes</li>
-										<li>BlockCluster réarrange les lignes et les colonnes pour faire apparaître les deux groupes</li>
-										<li>On peut traiter beaucoups de documents, de façon automatique, et plus rapidement qu'à la main</li>
-                           </ul>
+                        <div align="center" class="col-md-6">
+                           <h2 class="featurette-heading">Exemple texte</h2>
+                           <p class="lead">
+                              Articles: médecine et aéronautique <br>
+									   Arrangement lignes / colonnes <br>
+										Traitement automatique et rapide <br>
+                           </p>
                         </div>
                         <div class="col-md-6">
                            <img class="featurette-image img-responsive" src="img/snake/articles.png"/>
