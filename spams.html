@@ -25,21 +25,14 @@
    <body>
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
          <div class="container">
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </button>
-               <a class="navbar-brand" href="index.html">Accueil</a>
-            </div>
+            <a class="navbar-brand" href="index.html"><img src="img/home/logo_Lille1_small.png"></a>
+            <a class="navbar-brand" align="right" href="index.html"><img src="img/home/inria_blanc.png"></a>
          </div>
       </div>
       <div class="container fill">
          <!-- Carousel
             ================================================== -->
-         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+         <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -78,18 +71,17 @@
                   <div class="fill">
                      <div class="carousel-caption">
                         <div class="col-sm-6">
-                           <h2 class="featurette-heading">Problématique</h2>
+                           <h2 class="featurette-heading">Spams : fléau 2.0</h2>
                            <p class="lead">
-                              On mesure la résistance de la pâte à biscuit au cours du pétrissage: 
                            <ul>
-                              <li> Envoi et réception facile des mails</li>
-                              <li> Traitement pas si facile </li>
-                              <li> Pollution importante de notre boîte mail</li>
+								<li> Environ 3 milliards de boîtes mails dans le monde</li>
+                              <li> 507 milliards de mails envoyés quotidiennement</li>
+                              <li> 84% des mails envoyés en 2013 sont des spams </li>
+                              <li> Une personne reçoit/envoie en moyenne 219 mails par jour</li>
                            </ul>
                         </div>
                         <div class="col-sm-6">
-                           <img class="featurette-image img-responsive" src="img/spams/fullspams.jpg"/>
-                           <img class="featurette-image img-responsive" src="img/spams/fullspams2.jpg"/>
+                           <img class="featurette-image img-responsive" src="img/spams/trafic.png"/>
                         </div>
                      </div>
                   </div>
@@ -174,22 +166,40 @@
                <div class="item">
                   <div class="fill">
                      <div class="carousel-caption">
-                        <div class="col-sm-6">
+                        <div class="col-sm-5">
                            <p>
                            <h2 class="featurette-heading">Données</h2>
+						   <p>                              
+UCI spams database (Hopkins, Reeber, Forman, Suermondt de Hewlett-Packard Lab).
+
+ </p>
                            <p class="lead">
-                              Processus répété sur un ensemble de mails reçu 
+
                            <ul>
                               <li> 4601 mails</li>
                               <li> 54 mots clés </li>
                            </ul>
+
                            </p>
+						   
+						   <p>
+						   Quelques mots-clés ciblés:
+						          <ul>
+                              <li> internet</li>
+                              <li> order </li>
+							  <li> free</li>
+							  <li> business </li>
+							  <li> conference </li>
+							  <li> money </li>
+							  <li> ... </li>
+                           </ul>
+						   </p>
                            <p> 
                            <h3 class="featurette-heading">Comment trier?</h3>
                            </p>
                         </div>
-                        <div class="col-sm-6">
-                           <img class="featurette-image img-responsive" src="img/spams/init.jpg"/>
+                        <div class="col-sm-7">
+                           <img class="featurette-image img-responsive" src="img/spams/init.png"/>
                         </div>
                      </div>
                   </div>
@@ -227,7 +237,7 @@
                   <div class="fill">
                      <div class="carousel-caption">
                         <div class="col-sm-12">
-                           <h2> Exemple de tri en 2 groupes</h2>
+                           <h2> Zoom sur le tableau de données</h2>
                            <img class="featurette-image img-responsive" src="img/spams/tab1.png"/>
                         </div>
                      </div>
@@ -237,7 +247,6 @@
                   <div class="fill">
                      <div class="carousel-caption">
                         <div class="col-sm-12">
-                           <h2"> Exemple de tri en 2 groupes </h2>
                            <img class="featurette-image img-responsive" src="img/spams/tab2.png"/>
                         </div>
                      </div>
@@ -287,19 +296,158 @@
                <div class="item">
                   <div class="fill">
                      <div class="carousel-caption">
-                        <div class="col-sm-12">
+                        <div class="col-sm-6">
                            <h2> Besoin de mathématiques </h2>
-                           <img class="featurette-image img-responsive" src="img/spams/modele.png"/>
+                           <p>
+                              <!-- begin MathToWeb -->
+                              <!-- (your LaTeX) \begin{equation*}
+                                 f(x_i | \alpha_k) = \sum\limits_{k=1}^K p_k h(x_i|\alpha_k)
+                                 \end{equation*} -->
+                              <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                 <mtable class="m-equation-starred" displaystyle="true" style="display: block; margin-top: 1.0em; margin-bottom: 2.0em">
+                                    <mtr>
+                                       <mtd>
+                                          <mspace width="6.0em" />
+                                       </mtd>
+                                       <mtd columnalign="left">
+                                          <mi>f</mi>
+                                          <mrow>
+                                             <mo maxsize="1.00em" form="prefix">(</mo>
+                                             <msub>
+                                                <mi>x</mi>
+                                                <mi>i</mi>
+                                             </msub>
+                                             <mo>|</mo>
+                                             <msub>
+                                                <mi>&alpha;</mi>
+                                                <mi>k</mi>
+                                             </msub>
+                                             <mo maxsize="1.00em" form="postfix">)</mo>
+                                          </mrow>
+                                          <mo>=</mo>
+                                          <mstyle displaystyle="true">
+                                             <munderover>
+                                                <mo>&sum;</mo>
+                                                <mrow>
+                                                   <mi>k</mi>
+                                                   <mo>=</mo>
+                                                   <mn>1</mn>
+                                                </mrow>
+                                                <mi>K</mi>
+                                             </munderover>
+                                          </mstyle>
+                                          <msub>
+                                             <mi>p</mi>
+                                             <mi>k</mi>
+                                          </msub>
+                                          <mi>h</mi>
+                                          <mrow>
+                                             <mo maxsize="1.00em" form="prefix">(</mo>
+                                             <msub>
+                                                <mi>x</mi>
+                                                <mi>i</mi>
+                                             </msub>
+                                             <mo>|</mo>
+                                             <msub>
+                                                <mi>&alpha;</mi>
+                                                <mi>k</mi>
+                                             </msub>
+                                             <mo maxsize="1.00em" form="postfix">)</mo>
+                                          </mrow>
+                                       </mtd>
+                                    </mtr>
+                                 </mtable>
+                              </math>
+                              <!-- end MathToWeb -->
+                           </p>
+                           <p>
+                              <!-- begin MathToWeb -->
+                              <!-- (your LaTeX) \begin{equation*}
+                                 h(x_i | \alpha_k) = \prod\limits_{j=1}^d \prod\limits_{h=1}^{m_j} (\alpha_k^{jh})^{x_i^{jh}}
+                                 \end{equation*} -->
+                              <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                 <mtable class="m-equation-starred" displaystyle="true" style="display: block; margin-top: 1.0em; margin-bottom: 2.0em">
+                                    <mtr>
+                                       <mtd>
+                                          <mspace width="6.0em" />
+                                       </mtd>
+                                       <mtd columnalign="left">
+                                          <mi>h</mi>
+                                          <mrow>
+                                             <mo maxsize="1.00em" form="prefix">(</mo>
+                                             <msub>
+                                                <mi>x</mi>
+                                                <mi>i</mi>
+                                             </msub>
+                                             <mo>|</mo>
+                                             <msub>
+                                                <mi>&alpha;</mi>
+                                                <mi>k</mi>
+                                             </msub>
+                                             <mo maxsize="1.00em" form="postfix">)</mo>
+                                          </mrow>
+                                          <mo>=</mo>
+                                          <mstyle displaystyle="true">
+                                             <munderover>
+                                                <mo>&prod;</mo>
+                                                <mrow>
+                                                   <mi>j</mi>
+                                                   <mo>=</mo>
+                                                   <mn>1</mn>
+                                                </mrow>
+                                                <mi>d</mi>
+                                             </munderover>
+                                          </mstyle>
+                                          <mstyle displaystyle="true">
+                                             <munderover>
+                                                <mo>&prod;</mo>
+                                                <mrow>
+                                                   <mi>h</mi>
+                                                   <mo>=</mo>
+                                                   <mn>1</mn>
+                                                </mrow>
+                                                <mrow>
+                                                   <msub>
+                                                      <mi>m</mi>
+                                                      <mi>j</mi>
+                                                   </msub>
+                                                </mrow>
+                                             </munderover>
+                                          </mstyle>
+                                          <msup>
+                                             <mrow>
+                                                <mo maxsize="1.00em" form="prefix">(</mo>
+                                                <msubsup>
+                                                   <mi>&alpha;</mi>
+                                                   <mi>k</mi>
+                                                   <mrow>
+                                                      <mi>j</mi>
+                                                      <mi>h</mi>
+                                                   </mrow>
+                                                </msubsup>
+                                                <mo maxsize="1.00em" form="postfix">)</mo>
+                                             </mrow>
+                                             <mrow>
+                                                <msubsup>
+                                                   <mi>x</mi>
+                                                   <mi>i</mi>
+                                                   <mrow>
+                                                      <mi>j</mi>
+                                                      <mi>h</mi>
+                                                   </mrow>
+                                                </msubsup>
+                                             </mrow>
+                                          </msup>
+                                       </mtd>
+                                    </mtr>
+                                 </mtable>
+                              </math>
+                              <!-- end MathToWeb -->
+                           </p>
                         </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="item">
-                  <div class="fill">
-                     <div class="carousel-caption">
-                        <div class="col-sm-12">
+                        <div class="col-sm-6">
                            <h2> Besoin d'informatique </h2>
-                           <img class="featurette-image img-responsive" src="img/spams/mixmod.png"/>
+                           <img class="featurette-image img-responsive" src="img/spams/info.png"/>
                         </div>
                      </div>
                   </div>
@@ -310,7 +458,11 @@
                      <div class="carousel-caption">
                         <div class="col-sm-12">
                            <h2> Tri en 2 groupes </h2>
-                           <img class="featurette-image img-responsive" src="img/spams/iteralgob.gif"/>
+                              <video controls="controls">
+							  <source src="video/spams/iteralgo1.mp4" type="video/mp4" />
+							  <source src="video/spams/iteralgo1.webm" type="video/webm" />
+                              Ici l'alternative à la vidéo : un lien de téléchargement, un message, etc.
+                           </video>
                         </div>
                      </div>
                   </div>
@@ -319,22 +471,7 @@
                   <div class="fill">
                      <div class="carousel-caption">
                         <div class="col-sm-12">
-                           <h2> Tri en 2 groupes (test)</h2>
-                           <video controls="controls">
-  <source src="video/iteralgo1.mp4" type="video/mp4" />
-  <source src="video/iteralgo1.webm" type="video/webm" />
-  Ici l'alternative à la vidéo : un lien de téléchargement, un message, etc.
-</video>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="item">
-                  <div class="fill">
-                     <div class="carousel-caption">
-                        <div class="col-sm-12">
-                           <h2> Résultat </h2>
-                           <img class="featurette-image img-responsive" src="img/spams/iterend.jpg"/>
+                           <img class="featurette-image img-responsive" src="img/spams/iterend.png"/>
                         </div>
                      </div>
                   </div>
@@ -354,7 +491,7 @@
                      <div class="carousel-caption">
                         <div class="col-sm-12">
                            <h2> Tri automatique final </h2>
-                           <img class="featurette-image img-responsive" src="img/spams/resultalgo.png"/>
+                           <img class="featurette-image img-responsive" src="img/spams/resultalgob.png"/>
                         </div>
                      </div>
                   </div>
@@ -365,7 +502,11 @@
                      <div class="carousel-caption">
                         <div class="col-sm-12">
                            <h2> Tri en 3 groupes </h2>
-                           <img class="featurette-image img-responsive" src="img/spams/iteralgo2b.gif"/>
+                              <video controls="controls">
+							  <source src="video/spams/iteralgo2.mp4" type="video/mp4" />
+							  <source src="video/spams/iteralgo2.webm" type="video/webm" />
+                              Ici l'alternative à la vidéo : un lien de téléchargement, un message, etc.
+                           </video>
                         </div>
                      </div>
                   </div>
@@ -374,8 +515,7 @@
                   <div class="fill">
                      <div class="carousel-caption">
                         <div class="col-sm-12">
-                           <h2> Résultat </h2>
-                           <img class="featurette-image img-responsive" src="img/spams/iterend2.jpg"/>
+                           <img class="featurette-image img-responsive" src="img/spams/iterend2.png"/>
                         </div>
                      </div>
                   </div>
@@ -405,7 +545,7 @@
                      <div class="carousel-caption">
                         <div class="col-sm-12">
                            <h2> Tri automatique final </h2>
-                           <img class="featurette-image img-responsive" src="img/spams/resalgo3c.png"/>
+                           <img class="featurette-image img-responsive" src="img/spams/resalgo3cb.png"/>
                         </div>
                      </div>
                   </div>
@@ -430,6 +570,13 @@
             <a class="right carousel-control" href="#myCarousel" data-slide="next" ><span class="glyphicon glyphicon-chevron-right"></span></a>
          </div>
          <!-- /.carousel -->
+         <footer>
+            <div class="navbar navbar-inverse navbar-fixed-bottom" >
+               <div class="container">
+                  <div class="footer"> Laboratoire Paul Painlevé et équipe Inria Modal</div>
+               </div>
+            </div>
+         </footer>
       </div>
       <!-- /.container -->
       <!-- Bootstrap core JavaScript
