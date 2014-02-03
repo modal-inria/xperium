@@ -16,6 +16,7 @@ html,body{height:100%;}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
+
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: absolute;
@@ -187,8 +188,28 @@ html,body{height:100%;}
    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-.footer {
-	
+
+
+.goodcookie{
+	padding-top: 30%;
+	font-size :30px;
+	color: green;
+	text-align: left;
+		
+}
+
+.averagecookie{
+    padding-top: 5%;
+	font-size :30px;
+	color: orange;
+	text-align: left;
+}
+
+.badcookie{
+	padding-top: 5%;
+	font-size :30px;
+	color: red;
+	text-align: left;
 }
 
 
@@ -240,6 +261,7 @@ html,body{height:100%;}
 
 }
 
+
 @media screen and (min-width: 768px) {
   .carousel-control .glyphicons-chevron-left,
   .carousel-control .glyphicons-chevron-right,
@@ -274,9 +296,15 @@ html,body{height:100%;}
   }
 }
 
-@media (min-width: 1900px) {
+@media (min-width: 1920px) {
   .container {
-    width: 1900px;
+    width: 1920px;
   }
+  
+  .carousel {
+  height: 1200x;
+  
+  
+}
 }
 
