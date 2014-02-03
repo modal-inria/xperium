@@ -296,9 +296,9 @@ html,body{height:100%;}
   }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1900px) {
   .container {
-    width: 1920px;
+    width: 1900px;
   }
   
   .carousel {
