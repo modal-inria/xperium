@@ -75,9 +75,9 @@
      inkscape:window-height="1056"
      id="namedview3057"
      showgrid="false"
-     inkscape:zoom="0.71015466"
-     inkscape:cx="633.18423"
-     inkscape:cy="324.75351"
+     inkscape:zoom="1.0043104"
+     inkscape:cx="514.99527"
+     inkscape:cy="313.11828"
      inkscape:window-x="49"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -178,8 +178,8 @@
   <text
      xml:space="preserve"
      style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-     x="500.24725"
-     y="266.6463"
+     x="366.82236"
+     y="225.82227"
      id="text4560"
      sodipodi:linespacing="125%"
      inkscape:export-filename="/home/modal/Documents/140114 - experimentarium/figures/rect4608.png"
@@ -187,32 +187,32 @@
      inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
        id="tspan4562"
-       x="500.24725"
-       y="266.6463"
+       x="366.82236"
+       y="225.82227"
        style="font-size:36px;text-align:center;text-anchor:middle;fill:#ffffff">Version</tspan><tspan
        sodipodi:role="line"
-       x="500.24725"
-       y="311.6463"
+       x="366.82236"
+       y="270.82227"
        id="tspan4564"
        style="font-size:36px;text-align:center;text-anchor:middle;fill:#ffffff">originale</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-     x="494.64197"
-     y="472.88217"
+     x="630.05829"
+     y="429.07101"
      id="text4560-6"
      sodipodi:linespacing="125%"
      inkscape:export-filename="/home/modal/Documents/140114 - experimentarium/figures/rect4608.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
-       x="494.64197"
-       y="472.88217"
+       x="630.05829"
+       y="429.07101"
        id="tspan4564-6"
        style="font-size:36px;text-align:center;text-anchor:middle;fill:#ffffff">Résultat</tspan><tspan
        sodipodi:role="line"
-       x="494.64197"
-       y="517.8822"
+       x="630.05829"
+       y="474.07101"
        style="font-size:36px;text-align:center;text-anchor:middle;fill:#ffffff"
        id="tspan3024">BlockCluster</tspan></text>
   <path
@@ -234,8 +234,8 @@
   <text
      xml:space="preserve"
      style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="1010.7095"
-     y="242.11461"
+     x="1004.7352"
+     y="226.18329"
      id="text4507-2"
      sodipodi:linespacing="125%"
      inkscape:export-filename="/home/modal/Documents/140114 - experimentarium/figures/rect4608.png"
@@ -243,25 +243,30 @@
      inkscape:export-ydpi="300"
      inkscape:transform-center-x="-79.910156"><tspan
        sodipodi:role="line"
-       x="1010.7095"
-       y="242.11461"
+       x="1004.7352"
+       y="226.18329"
        style="font-size:24px;text-align:center;text-anchor:middle"
-       id="tspan3060">Médecine et</tspan><tspan
+       id="tspan3060">Articles</tspan><tspan
        sodipodi:role="line"
-       x="1010.7095"
-       y="272.11462"
+       x="1004.7352"
+       y="256.18329"
+       style="font-size:24px;text-align:center;text-anchor:middle"
+       id="tspan3039">Médecine et</tspan><tspan
+       sodipodi:role="line"
+       x="1004.7352"
+       y="286.18326"
        style="font-size:24px;text-align:center;text-anchor:middle"
        id="tspan3022">Aéronautique</tspan><tspan
        sodipodi:role="line"
-       x="1010.7095"
-       y="302.11459"
+       x="1004.7352"
+       y="316.18326"
        style="font-size:24px;text-align:center;text-anchor:middle"
        id="tspan3025">mélangés</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="936.32831"
-     y="451.53226"
+     x="1002.2368"
+     y="433.60947"
      id="text4507"
      sodipodi:linespacing="125%"
      inkscape:export-filename="/home/modal/Documents/140114 - experimentarium/figures/rect4608.png"
@@ -269,9 +274,14 @@
      inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
        id="tspan4509"
-       x="936.32831"
-       y="451.53226"
-       style="font-size:24px">Médecine</tspan></text>
+       x="1002.2368"
+       y="433.60947"
+       style="font-size:24px;text-align:center;text-anchor:middle">Articles</tspan><tspan
+       sodipodi:role="line"
+       x="1002.2368"
+       y="463.60947"
+       style="font-size:24px;text-align:center;text-anchor:middle"
+       id="tspan3031">Médecine</tspan></text>
   <path
      sodipodi:type="arc"
      style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-opacity:1"
@@ -291,18 +301,23 @@
   <text
      xml:space="preserve"
      style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="932.21912"
-     y="542.93848"
+     x="1005.1594"
+     y="531.98572"
      id="text4507-3"
      sodipodi:linespacing="125%"
      inkscape:export-filename="/home/modal/Documents/140114 - experimentarium/figures/rect4608.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
-       id="tspan4509-2"
-       x="932.21912"
-       y="542.93848"
-       style="font-size:24px">Aéronautique</tspan></text>
+       x="1005.1594"
+       y="531.98572"
+       style="font-size:24px;text-align:center;text-anchor:middle"
+       id="tspan3033">Articles</tspan><tspan
+       sodipodi:role="line"
+       x="1005.1594"
+       y="561.98572"
+       style="font-size:24px;text-align:center;text-anchor:middle"
+       id="tspan3037">Aéronautique</tspan></text>
   <path
      sodipodi:type="arc"
      style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.16036355;stroke-opacity:1"
@@ -354,8 +369,8 @@
   <text
      xml:space="preserve"
      style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="245.59201"
-     y="644.98547"
+     x="261.52335"
+     y="639.01123"
      id="text4507-37"
      sodipodi:linespacing="125%"
      inkscape:export-filename="/home/modal/Documents/140114 - experimentarium/figures/rect4608.png"
@@ -363,19 +378,19 @@
      inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
        id="tspan4509-9"
-       x="245.59201"
-       y="644.98547"
-       style="font-size:24px;text-align:center;text-anchor:middle">Articles</tspan><tspan
+       x="261.52335"
+       y="639.01123"
+       style="font-size:24px;text-align:center;text-anchor:middle">Mots</tspan><tspan
        sodipodi:role="line"
-       x="245.59201"
-       y="674.98547"
+       x="261.52335"
+       y="669.01123"
        style="font-size:24px;text-align:center;text-anchor:middle"
        id="tspan3081">Médecine</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="628.76404"
-     y="644.06744"
+     x="634.73828"
+     y="637.09747"
      id="text4507-37-7"
      sodipodi:linespacing="125%"
      inkscape:export-filename="/home/modal/Documents/140114 - experimentarium/figures/rect4608.png"
@@ -383,12 +398,12 @@
      inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
        id="tspan4509-9-4"
-       x="628.76404"
-       y="644.06744"
-       style="font-size:24px;text-align:center;text-anchor:middle">Articles</tspan><tspan
+       x="634.73828"
+       y="637.09747"
+       style="font-size:24px;text-align:center;text-anchor:middle">Mots</tspan><tspan
        sodipodi:role="line"
-       x="628.76404"
-       y="674.06744"
+       x="634.73828"
+       y="667.09747"
        style="font-size:24px;text-align:center;text-anchor:middle"
        id="tspan3081-4">Aéronautique</tspan></text>
   <flowRoot
@@ -405,7 +420,7 @@
        id="flowPara3063"
        style="font-size:24px;text-align:center;text-anchor:middle">sur chaque</flowPara><flowPara
        id="flowPara3065"
-       style="font-size:24px;text-align:center;text-anchor:middle">ligne fréquence</flowPara><flowPara
+       style="font-size:24px;text-align:center;text-anchor:middle">colonne fréquence</flowPara><flowPara
        id="flowPara3067"
        style="font-size:24px;text-align:center;text-anchor:middle">d'un mot dans chaque article (blanc = très fréquent)</flowPara><flowPara
        id="flowPara3069"
