@@ -1,0 +1,1 @@
+document.write("<footer><div class=\"navbar navbar-inverse navbar-fixed-bottom\" ><div class=\"container\"><div class=\"footer\"> Laboratoire Paul Painlevé et équipe Inria Modal</div></div></div></footer>");
